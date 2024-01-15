@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap);
+
+:root {
+  --app-grey: hsla(0, 0%, 85%, 1);
+  --app-text: hsla(0, 0%, 100%, 1);
+  --app-black: hsla(0, 0%, 8%, 1);
+  --app-grey-70: hsl(210, 10%, 25%);
+  --app-grey-90: hsl(0, 0%, 12%);
+  --app-grey-50: hsla(0, 0%, 100%, 0.5);
+
+
+}
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+#root {
+  color: var(--app-text);
+  height: 100%;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 1s linear;
+  }
+}
+
+.spinner {
+  animation: logo-spin infinite 1s linear;
+  background-image: url("../assets/spinner.svg");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.main {
+  background: var(--app-black);
+  height: 100%;
+}

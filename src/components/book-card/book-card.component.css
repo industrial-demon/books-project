@@ -1,0 +1,47 @@
+.book-card {
+    width: 190px;
+    justify-self: center;
+}
+
+
+.card-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.recived {
+    position: absolute;
+    right: 16px;
+    top: 8px;
+}
+
+.book-card-img {
+    border-radius: 16px;
+    overflow: hidden;
+    height: 240px;
+    width: 190px;
+}
+
+.book-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 8px;
+}
+
+.book-card-author {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.book-card-name {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.book-card-rating {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}

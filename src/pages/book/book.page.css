@@ -1,0 +1,56 @@
+.book-content {
+  display: flex;
+  gap: 42px;
+}
+
+.book-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.book-left > span > b {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.book-image {
+  border-radius: 12px;
+  width: 284px;
+  height: 358px;
+}
+
+.book-detais {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.book-comments {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 24px;
+}
+
+.book-comments > li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row-detail {
+  display: flex;
+  gap: 10px;
+}
+
+.row-value {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
